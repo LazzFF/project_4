@@ -1,0 +1,678 @@
+:root {
+    --bg-color: #fff;
+    --text-color: #161C24;
+    --accent-color: #454F5B;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-width: 320px;
+    font-family: "SF Pro Text";
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main.main {
+    flex: 1 1 auto;
+}
+
+
+/*____________________________________Top AD________________________________________*/
+
+.ad {
+    height: 44px;
+}
+
+.ad-text {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1.92px;
+
+}
+
+.back_call {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.92px;
+    text-decoration-line: underline;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*____________________________________________________________________________*/
+
+/*______________________________________Header settings______________________________________*/
+
+.company-logo {
+    width: 50px;
+    height: 42px;
+}
+
+.list-group-horizontal-lg {
+    list-style: none;
+}
+
+.list-group-horizontal-lg li {
+    margin-right: 32px;
+}
+
+.list-group-horizontal-lg a {
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-weight: 100;
+    transition: transform 0.3s;
+}
+
+.list-group-horizontal-lg a:hover {
+    transform: scale(1.07);
+}
+
+.header-top-logo {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.header-top-phone {
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.phone-number {
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    color: var(--accent-color);
+    margin-left: 9px;
+    margin-right: 32px;
+}
+
+.phone-handset {
+    width: 20px;
+    height: 20px;
+}
+
+.heart-icon {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+}
+
+.heart-icon:hover {
+    transform: scale(1.07);
+}
+
+.cart-icon {
+    width: 32px;
+    height: 32px;
+    margin-left: 24px;
+    transition: transform 0.3s;
+}
+
+.cart-icon:hover {
+    transform: scale(1.07);
+}
+
+.line {
+    display: block;
+    height: 3px;              
+    border: none;             
+    border-top: 3px solid #ccc; 
+    margin: 1em 0;            
+    padding: 0;          
+}
+
+.drop-down:after {
+    display: block;
+    position: absolute;
+    left: 15px;
+    width: 0;
+    height: 2px;
+    background-color: #4295E4;
+    content: "";
+    transition: width 0.3s ease-out;
+}
+
+.drop-down:hover:after,
+.drop-down:focus:after {
+    width: 80%;
+}
+/*____________________________________________________________________________*/
+
+/*______________________________________Main page settings______________________________________*/
+
+.main-title {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 44px;
+    color: var(--text-color);
+}
+
+.second-title {
+    font-family: "SF Pro Text";
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.price-title {
+    font-family: "SF Pro Text";
+    font-weight: 100;
+    font-size: 12px;
+    color: var(--accent-color);
+}
+
+.price {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.price-s {
+    font-family: "SF Pro Text";
+    font-weight: 100;
+    font-size: 24px;
+    color: #A4A4A4;
+}
+
+.numbers {
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--text-color);
+}
+
+.bottom-text {
+    font-family: "SF Pro Text";
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.btn {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 44px;
+    color: var(--text-color);
+}
+
+.btn:hover {
+    color: var(--text-color);
+}
+
+.categories {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 44px;
+    color: var(--text-color);
+}
+
+.card-text {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--text-color);
+}
+
+.card-button {
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.products {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 44px;
+    color: var(--text-color);
+}
+
+.price-tabs {
+    font-family: "SF Pro Text"; 
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.text-tabs {
+    font-family: "SF Pro Text";
+    font-weight: 200; 
+    font-size: 16px;
+    color: var(--accent-color);
+
+}
+
+.nav-link {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.price-small {
+    font-family: "SF Pro Text";
+    font-weight: 100;
+    font-size: 20px;
+    color: #A4A4A4;
+}
+
+.tab {
+    display: none;
+  }
+
+.tab:target {
+    display: block;
+}
+
+.recall {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 44px;
+    color: var(--text-color);
+}
+
+.recall-bottom {
+    font-family: "SF Pro Text";
+    font-weight: 200; 
+    font-size: 16px;
+    color: var(--accent-color);
+}
+
+
+/*____________________________________________________________________________*/
+
+/*______________________________________Footer settings______________________________________*/
+
+.footer-title {
+    font-family: "SF Pro Text";
+    font-weight: 500; 
+    font-size: 18px;
+    color: var(--bg-color);
+}
+
+.footer-text-bottom {
+    font-family: "SF Pro Text";
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--bg-color);
+}
+
+.footer-text-bottom-another {
+    font-family: "SF Pro Text";
+    font-weight: lighter;
+    font-size: 14px;
+    color: #C4CDD5;
+}
+
+.bottom-line {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 3px;  
+    width: 88%; 
+    margin-top: 50px;           
+    border: none;             
+    border-top: 2px solid #fff; 
+    margin-left: 100px;
+    opacity: 8%;  
+}
+
+
+/*____________________________________________________________________________*/
+
+/*____________________________________375px____________________________________________ */
+
+@media screen and (max-width: 375px) {
+
+    .ad {
+        height: 60px;
+    }
+
+    .ad-text {
+        display: flex;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .company-logo {
+        display: none;
+    }
+
+    .navbar-toggler {
+        float: left;
+        margin-right: 300px;
+        border: none;
+    }
+
+    .carousel-indicators {
+        width: 70px;
+        margin-left: 140px;
+    }
+
+    .carousel-control-prev-icon {
+        width: 20px;
+    }
+
+    .carousel-control-next-icon {
+        width: 20px;
+    }
+
+    .carousel-caption {
+        left: 0;
+    }
+
+    .phone-number {
+        font-size: 14px;
+    }
+
+    .navbar-collapse {
+        margin-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .dropdown-item {
+        margin-left: 16px;
+        padding-bottom: 20px;
+    }
+
+    .optom {
+        margin-left: 5px;
+    }
+
+    .d-flex {
+        margin-left: 0;
+    }
+
+    .carousel-caption {
+        float: left;
+    }
+
+    .main-title {
+        font-size: 22px;
+    }
+
+    .second-title {
+      display: none;  
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    .price-s {
+        font-size: 14px;
+    }
+
+    .button {
+        width: 343px;
+        height: 50px;
+    }
+
+    .statistic {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .statistic-element {
+        max-width: 50%;
+        justify-content: space-around;
+    }
+
+    .btn {
+       font-size: 22px; 
+    }
+
+    .list-collapse {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .elements-collapse {
+        margin-top: 30px;
+    }
+
+    .categories {
+        font-size: 22px;
+        margin-top: -20px;
+    }
+
+    .card-button {
+        display: none;
+    }
+
+    .card-text {
+        font-size: 14px;
+        margin-bottom: 100px;
+        position: inherit;
+    }
+
+    .button-card {
+        display: block;
+        width: 100%;
+    }
+
+    .products {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .recall {
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .recall-bottom {
+        width: 100%;
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    .col-form {
+        width: 343px;
+        height: 50px;
+        width: 100%;
+        margin-right: 200px;
+    }
+
+    .logo-footer {
+        width: 70px;
+        height: 1px;
+        width: 100%;
+    }
+
+    .footer-icons {
+        width: 100%;
+        text-align: left;
+    }
+
+    .footer-title {
+        font-size: 20px;
+    }
+
+    .footer-col {
+        padding-left: 60px;
+    }
+
+    .bottom-line {
+        width: 70%;
+        margin-left: 60px;
+        margin-top: -10px;
+    }
+
+    .footer {
+        width: 130%;
+    }
+
+    .form-main {
+        margin-left: 160px;
+    }
+
+    .phone-number {
+        display: none;
+    }
+
+    .phone-handset {
+        display: none;
+    }
+
+}
+
+/*____________________________________________________________________________*/
+
+/*____________________________________768px________________________________________*/
+
+@media screen and (max-width: 768px) {
+    .ad {
+        width: 100%;
+    }
+
+    .company-logo {
+        margin-left: 40px;
+    }
+
+    .list-group-horizontal-lg a {
+        font-size: 14px;
+    }
+
+    .phone-handset {
+        width: 15px;
+        height: 15px;
+    }
+
+    .heart-icon {
+        display: none;
+    }
+
+    .cart-icon {
+        display: none;
+    }
+
+    .card-bottom {
+        margin-top: 90px;
+    }
+
+    .form-main {
+        width: 90%;
+    }
+
+    .logo-footer {
+        width: 70%;
+
+    }
+
+    .footer-logo {
+        margin-left: -60px;
+    }
+
+    .footer-title {
+        font-size: 15px;
+    }
+
+    .footer-text-bottom {
+        font-size: 14px;
+    }
+
+    .bottom-line {
+        margin-right: -100px;
+    }
+}
+
+/*____________________________________________________________________________*/
+
+/*____________________________________1024px________________________________________*/
+
+@media screen and (max-width: 1024px) {
+
+
+    .main-title {
+        margin-right: 500px;
+    }
+
+    .company-logo {
+        margin-left: 50px;
+    }
+
+    .header-top-phone {
+        margin-left: -390px;
+    }
+
+
+    .bottom-line {
+        width: 70%;
+        margin-left: 60px;
+        margin-top: -10px;
+    }
+
+    .logo-footer {
+        width: 100%;
+    }
+
+    .footer-icons {
+        width: 80%;
+    }
+
+    .main-title {
+        display: none;
+    }
+
+    .second-title {
+        display: none;
+    }
+
+    .price-title {
+        display: none;
+    }
+
+    .price {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+}
+
+/*____________________________________________________________________________*/
+
+@media screen and (max-width: 1440px) {
+
+    .heart-icon {
+        display: none;
+    }
+
+    .cart-icon {
+        display: none;
+    }
+
+    
+}
